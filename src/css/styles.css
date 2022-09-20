@@ -25,22 +25,24 @@ body {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.qrcode img {
+img {
+    display: block;
+    object-fit: cover;
     width: 265px;
     height: 265px;
-    border-radius: 15px;
     margin-top: 20px;
+    max-width: 100%;
+    border-radius: 15px;
 }
 
-.textos {
+h1, p {
     text-align: center;
 }
-
-.textos h1 {
+h1 {
     font-size: 17px;
     margin-top: 20px;
 }
 
-.textos p {
+p {
     margin: 20px;
 }
